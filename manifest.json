@@ -19,7 +19,7 @@
 	"options_ui": {
 		"page": "options.html"
 	},
-	"permissions": [ "tabs", "cookies", "notifications", "storage" ],
+	"permissions": [ "tabs", "cookies", "notifications", "storage", "contextMenus", "activeTab" ],
 	"browser_specific_settings": {
 		"gecko": {
 			"id": "{28d03e32-9c43-4a90-b89d-b42abf9e3c8f}"
