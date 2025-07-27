@@ -47,6 +47,71 @@
 	label > div:nth-child(1) {
 		font-weight: bold;
 	}
+	
+	#whitelist_section {
+		margin-top: 2rem;
+		padding: 1rem;
+		border-top: 1px solid var(--form-even-color);
+	}
+	
+	.whitelist-controls h4 {
+		margin: 1rem 0 0.5rem 0;
+		color: var(--text-color);
+	}
+	
+	.input-group {
+		display: flex;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+	}
+	
+	.input-group input {
+		flex: 1;
+		padding: 0.5rem;
+		border: 1px solid var(--form-even-color);
+		background-color: var(--panel-bg-color);
+		color: var(--text-color);
+	}
+	
+	.input-group button {
+		padding: 0.5rem 1rem;
+		background-color: var(--form-even-color);
+		border: 1px solid var(--form-even-color);
+		color: var(--text-color);
+		cursor: pointer;
+	}
+	
+	.input-group button:hover {
+		opacity: 0.8;
+	}
+	
+	.whitelist-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.5rem;
+		margin-bottom: 0.25rem;
+		background-color: var(--form-even-color);
+		border-radius: 3px;
+	}
+	
+	.whitelist-item button {
+		background: none;
+		border: none;
+		color: #ff4444;
+		cursor: pointer;
+		padding: 0.25rem 0.5rem;
+	}
+	
+	.whitelist-item button:hover {
+		background-color: rgba(255, 68, 68, 0.1);
+	}
+	
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
 	</style>
 </head>
 <body><div class="content">
@@ -75,7 +140,34 @@
 			</label>
 			<input type="checkbox" id="check_multiwindow">
 		</div>
+		<div>
+			<label for="enable_whitelist">
+				<div data-i18n="enableWhitelistLabel"></div>
+				<div data-i18n="enableWhitelistHint"></div>
+			</label>
+			<input type="checkbox" id="enable_whitelist">
+		</div>
 	</form>
+	
+	<div id="whitelist_section" style="display: none;">
+		<h3 data-i18n="whitelistSectionTitle"></h3>
+		
+		<div class="whitelist-controls">
+			<h4 data-i18n="whitelistDomainsTitle"></h4>
+			<div class="input-group">
+				<input type="text" id="domain_input" placeholder="example.com" data-i18n-placeholder="domainPlaceholder">
+				<button id="add_domain" data-i18n="addDomain"></button>
+			</div>
+			<ul id="domains_list"></ul>
+			
+			<h4 data-i18n="whitelistUrlsTitle"></h4>
+			<div class="input-group">
+				<input type="text" id="url_input" placeholder="https://example.com/page" data-i18n-placeholder="urlPlaceholder">
+				<button id="add_url" data-i18n="addUrl"></button>
+			</div>
+			<ul id="urls_list"></ul>
+		</div>
+	</div>
 	<script src="options.js"></script>
 	<script src="i18n.js"></script>
 </div></body>
