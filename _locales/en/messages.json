@@ -43,5 +43,127 @@
 	"notificationTitle": {
 		"message": "Duplicate tab replaced:",
 		"description": "Notification title shown when closing a duplicated tab."
+	},
+	"enableWhitelistLabel": {
+		"message": "Enable whitelist:",
+		"description": "Option label for enabling whitelist feature."
+	},
+	"enableWhitelistHint": {
+		"message": "Whitelisted domains and URLs will not be deduplicated.",
+		"description": "Help text for whitelist feature."
+	},
+	"whitelistSectionTitle": {
+		"message": "Whitelist Settings",
+		"description": "Title for whitelist settings section."
+	},
+	"whitelistDomainsTitle": {
+		"message": "Whitelisted Domains",
+		"description": "Title for domains whitelist section."
+	},
+	"whitelistUrlsTitle": {
+		"message": "Whitelisted URLs",
+		"description": "Title for URLs whitelist section."
+	},
+	"domainPlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder text for domain input."
+	},
+	"urlPlaceholder": {
+		"message": "https://example.com/page",
+		"description": "Placeholder text for URL input."
+	},
+	"addDomain": {
+		"message": "Add Domain",
+		"description": "Button text to add domain to whitelist."
+	},
+	"addUrl": {
+		"message": "Add URL",
+		"description": "Button text to add URL to whitelist."
+	},
+	"remove": {
+		"message": "Remove",
+		"description": "Button text to remove item from whitelist."
+	},
+	"invalidUrl": {
+		"message": "Please enter a valid URL",
+		"description": "Error message for invalid URL input."
+	},
+	"whitelistDomain": {
+		"message": "Whitelist this domain",
+		"description": "Context menu item to whitelist domain."
+	},
+	"whitelistExactUrl": {
+		"message": "Whitelist this exact URL",
+		"description": "Context menu item to whitelist exact URL."
+	},
+	"removeFromWhitelist": {
+		"message": "Remove from whitelist",
+		"description": "Context menu item to remove from whitelist."
+	},
+	"openWhitelistSettings": {
+		"message": "Open whitelist settings",
+		"description": "Context menu item to open whitelist settings."
+	},
+	"whitelistAddedTitle": {
+		"message": "Added to whitelist",
+		"description": "Notification title when item added to whitelist."
+	},
+	"whitelistDomainAdded": {
+		"message": "Domain $DOMAIN$ added to whitelist",
+		"description": "Notification message when domain added to whitelist.",
+		"placeholders": {
+			"domain": {
+				"content": "$1"
+			}
+		}
+	},
+	"whitelistUrlAdded": {
+		"message": "URL added to whitelist",
+		"description": "Notification message when URL added to whitelist."
+	},
+	"whitelistRemovedTitle": {
+		"message": "Removed from whitelist",
+		"description": "Notification title when item removed from whitelist."
+	},
+	"whitelistRemoved": {
+		"message": "Item removed from whitelist",
+		"description": "Notification message when item removed from whitelist."
+	},
+	"enableWhitelistToggle": {
+		"message": "Whitelist",
+		"description": "Context menu item to toggle whitelist on/off."
+	},
+	"whitelistToggleTitle": {
+		"message": "Whitelist toggled",
+		"description": "Notification title when whitelist is toggled."
+	},
+	"whitelistEnabled": {
+		"message": "🟢 Whitelist enabled",
+		"description": "Notification message when whitelist is enabled."
+	},
+	"whitelistDisabled": {
+		"message": "🔴 Whitelist disabled",
+		"description": "Notification message when whitelist is disabled."
+	},
+	"removeFromWhitelistDomain": {
+		"message": "Remove domain from whitelist",
+		"description": "Context menu item to remove domain from whitelist."
+	},
+	"removeFromWhitelistUrl": {
+		"message": "Remove URL from whitelist",
+		"description": "Context menu item to remove URL from whitelist."
+	},
+	"removeFromWhitelistBoth": {
+		"message": "Remove from whitelist",
+		"description": "Context menu item to remove both domain and URL from whitelist."
+	},
+	"whitelistRemovedItems": {
+		"message": "$ITEMS$ removed from whitelist",
+		"description": "Notification message when specific items removed from whitelist.",
+		"placeholders": {
+			"items": {
+				"content": "$1"
+			}
+		}
 	}
 }
