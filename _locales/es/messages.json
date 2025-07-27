@@ -1,0 +1,169 @@
+{
+	"extensionName": {
+		"message": "Tab Deduper",
+		"description": "Nombre de la extensión."
+	},
+	"extensionDescription": {
+		"message": "Elimina / cierra pestañas duplicadas, reemplazándolas con una pestaña existente coincidente.",
+		"description": "Descripción de la extensión."
+	},
+	"autosaveNotice": {
+		"message": "Los cambios en la configuración se guardan automáticamente.",
+		"description": "Aviso permanente en la pantalla de opciones."
+	},
+	"protectDuplicatesLabel": {
+		"message": "Mantener pestañas duplicadas explícitamente:",
+		"description": "Etiqueta de opción en la pantalla de opciones."
+	},
+	"protectDuplicatesHint": {
+		"message": "Las pestañas creadas por la opción \"$DUPLICATETABACTION$\" no serán eliminadas automáticamente.",
+		"description": "Ayuda bajo la opción en la pantalla de opciones.",
+		"placeholders": {
+			"duplicateTabAction": {
+				"content": "Duplicar Pestaña"
+			}
+		}
+	},
+	"moveOrderLabel": {
+		"message": "Cambiar la posición de la pestaña antigua:",
+		"description": "Etiqueta de opción en la pantalla de opciones."
+	},
+	"moveOrderHint": {
+		"message": "Las pestañas antiguas se moverán a la posición de la pestaña actual.",
+		"description": "Ayuda bajo la opción en la pantalla de opciones."
+	},
+	"checkMultiwindowLabel": {
+		"message": "Verificar todas las ventanas:",
+		"description": "Etiqueta de opción en la pantalla de opciones."
+	},
+	"checkMultiwindowHint": {
+		"message": "Los duplicados se verifican en todas las ventanas (no privadas).",
+		"description": "Ayuda bajo la opción en la pantalla de opciones."
+	},
+	"notificationTitle": {
+		"message": "Pestaña duplicada reemplazada:",
+		"description": "Título de notificación mostrado al cerrar una pestaña duplicada."
+	},
+	"enableWhitelistLabel": {
+		"message": "Habilitar lista blanca:",
+		"description": "Etiqueta de opción para habilitar la función de lista blanca."
+	},
+	"enableWhitelistHint": {
+		"message": "Los dominios y URLs en la lista blanca no serán deduplicados.",
+		"description": "Texto de ayuda para la función de lista blanca."
+	},
+	"whitelistSectionTitle": {
+		"message": "Configuración de Lista Blanca",
+		"description": "Título para la sección de configuración de lista blanca."
+	},
+	"whitelistDomainsTitle": {
+		"message": "Dominios en Lista Blanca",
+		"description": "Título para la sección de dominios en lista blanca."
+	},
+	"whitelistUrlsTitle": {
+		"message": "URLs en Lista Blanca",
+		"description": "Título para la sección de URLs en lista blanca."
+	},
+	"domainPlaceholder": {
+		"message": "ejemplo.com",
+		"description": "Texto de marcador de posición para entrada de dominio."
+	},
+	"urlPlaceholder": {
+		"message": "https://ejemplo.com/pagina",
+		"description": "Texto de marcador de posición para entrada de URL."
+	},
+	"addDomain": {
+		"message": "Agregar Dominio",
+		"description": "Texto del botón para agregar dominio a la lista blanca."
+	},
+	"addUrl": {
+		"message": "Agregar URL",
+		"description": "Texto del botón para agregar URL a la lista blanca."
+	},
+	"remove": {
+		"message": "Eliminar",
+		"description": "Texto del botón para eliminar elemento de la lista blanca."
+	},
+	"invalidUrl": {
+		"message": "Por favor ingrese una URL válida",
+		"description": "Mensaje de error para entrada de URL inválida."
+	},
+	"whitelistDomain": {
+		"message": "Agregar este dominio a la lista blanca",
+		"description": "Elemento del menú contextual para agregar dominio a la lista blanca."
+	},
+	"whitelistExactUrl": {
+		"message": "Agregar esta URL exacta a la lista blanca",
+		"description": "Elemento del menú contextual para agregar URL exacta a la lista blanca."
+	},
+	"removeFromWhitelist": {
+		"message": "Eliminar de la lista blanca",
+		"description": "Elemento del menú contextual para eliminar de la lista blanca."
+	},
+	"openWhitelistSettings": {
+		"message": "Abrir configuración de lista blanca",
+		"description": "Elemento del menú contextual para abrir configuración de lista blanca."
+	},
+	"whitelistAddedTitle": {
+		"message": "Agregado a la lista blanca",
+		"description": "Título de notificación cuando se agrega elemento a la lista blanca."
+	},
+	"whitelistDomainAdded": {
+		"message": "Dominio $DOMAIN$ agregado a la lista blanca",
+		"description": "Mensaje de notificación cuando se agrega dominio a la lista blanca.",
+		"placeholders": {
+			"domain": {
+				"content": "$1"
+			}
+		}
+	},
+	"whitelistUrlAdded": {
+		"message": "URL agregada a la lista blanca",
+		"description": "Mensaje de notificación cuando se agrega URL a la lista blanca."
+	},
+	"whitelistRemovedTitle": {
+		"message": "Eliminado de la lista blanca",
+		"description": "Título de notificación cuando se elimina elemento de la lista blanca."
+	},
+	"whitelistRemoved": {
+		"message": "Elemento eliminado de la lista blanca",
+		"description": "Mensaje de notificación cuando se elimina elemento de la lista blanca."
+	},
+	"enableWhitelistToggle": {
+		"message": "Lista blanca",
+		"description": "Elemento del menú contextual para activar/desactivar lista blanca."
+	},
+	"whitelistToggleTitle": {
+		"message": "Lista blanca alternada",
+		"description": "Título de notificación cuando se alterna la lista blanca."
+	},
+	"whitelistEnabled": {
+		"message": "🟢 Lista blanca habilitada",
+		"description": "Mensaje de notificación cuando se habilita la lista blanca."
+	},
+	"whitelistDisabled": {
+		"message": "🔴 Lista blanca deshabilitada",
+		"description": "Mensaje de notificación cuando se deshabilita la lista blanca."
+	},
+	"removeFromWhitelistDomain": {
+		"message": "Eliminar dominio de la lista blanca",
+		"description": "Elemento del menú contextual para eliminar dominio de la lista blanca."
+	},
+	"removeFromWhitelistUrl": {
+		"message": "Eliminar URL de la lista blanca",
+		"description": "Elemento del menú contextual para eliminar URL de la lista blanca."
+	},
+	"removeFromWhitelistBoth": {
+		"message": "Eliminar de la lista blanca",
+		"description": "Elemento del menú contextual para eliminar tanto dominio como URL de la lista blanca."
+	},
+	"whitelistRemovedItems": {
+		"message": "$ITEMS$ eliminado(s) de la lista blanca",
+		"description": "Mensaje de notificación cuando se eliminan elementos específicos de la lista blanca.",
+		"placeholders": {
+			"items": {
+				"content": "$1"
+			}
+		}
+	}
+}
